@@ -1,0 +1,165 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="baidu-site-verification" content="msfBfhuee7" />
+	<title>rvm笔记!!!</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="top">
+        <header>
+                <h1><a href="/">mygit</a></h1>
+        </header>
+</div>
+
+<div id="left">
+
+	<h2>ruby and python</h2>
+		</span>2</span> 
+	<ul class="arc-list">
+		 
+			<li>31/07/2016<a href="/ruby%20and%20python/2016/07/31/rvm.html">rvm笔记!!!</a></li>
+		 
+			<li>31/07/2016<a href="/ruby%20and%20python/2016/07/31/python.html">python</a></li>
+		
+	</ul> 
+
+	<h2>git</h2>
+		</span>1</span> 
+	<ul class="arc-list">
+		 
+			<li>01/08/2016<a href="/git/2016/08/01/git%E5%88%9B%E5%BB%BA%E7%A9%BA%E5%88%86%E6%94%AF.html">git创建空分支</a></li>
+		
+	</ul> 
+
+</div>
+
+<div id="center">
+        <section>
+                <article class="article">
+	<h1 class="title">rvm笔记!!!</h1>
+	<h1 id="rvm">rvm</h1>
+
+<ul>
+  <li>
+    <p>RVM 是一个命令行工具，可以提供一个便捷的多版本Ruby 环境的管理和切换。</p>
+  </li>
+  <li>
+    <p>如果你打算学习Ruby / Rails, RVM 是必不可少的工具之一。</p>
+  </li>
+  <li>
+    <p>这里所有的命令都是再用户权限下操作的，任何命令最好都不要用sudo.</p>
+  </li>
+</ul>
+
+<h2 id="section">安装</h2>
+
+<ul>
+  <li>
+    <p>安装</p>
+
+   	$ gpg –keyserver hkp://keys.gnupg.net –recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+    <div class="highlighter-rouge"><pre class="highlight"><code>  $ \curl -sSL https://get.rvm.io | bash -s stable
+  $ source ~/.bashrc
+  $ source ~/.bash_profile
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>修改 RVM 的 Ruby 安装源到 Ruby China 的 Ruby 镜像服务器，这样能提高安装速度</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  $ echo "ruby_url=https://cache.ruby-china.org/pub/ruby" &gt; ~/.rvm/user/db
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+<p>##常用命令</p>
+
+<ul>
+  <li>
+    <p>列出已知Ruby版本</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  rvm list known
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>安装一个ruby版本</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  rvm install 2.2.0 --disable-binary
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>切换Ruby版本</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  rvm use 2.2.0
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>设置默认版本</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  rvm use 2.2.0 --default
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>查询已安装的Ruby</p>
+
+    <div class="highlighter-rouge"><pre class="highlight"><code>  rvm list
+</code></pre>
+    </div>
+  </li>
+  <li>
+    <p>卸载一个已安装的版本
+      rvm remove 1.8.7</p>
+  </li>
+</ul>
+
+
+</article>
+
+
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+ *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+ *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
+/*
+var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//june37.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+        </section>
+</div>
+
+<div id="right">
+hello!
+</div>
+
+<div id="bottom">
+bye!!
+</div>
+
+</div>
+
+</body>
+</html>
